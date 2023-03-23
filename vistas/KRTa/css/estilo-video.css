@@ -1,0 +1,52 @@
+.animacionVideo {
+  position: absolute;
+  bottom: 160px;
+  left: 42.25%;
+  opacity: 0; 
+
+  animation-name: opacityOn;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+
+  animation-name: opacityOff;
+  animation-duration: 12s;
+  animation-delay: 10ms;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+
+}
+@keyframes opacityOn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+@keyframes opacityOff {
+  0% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+
+/* .contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.texto-encima{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */

@@ -1,0 +1,20 @@
+.colorFooter {
+    opacity: .5;
+    background-color: #ffffff;
+    color: black;
+}
+.footer {
+    position: fixed;
+    height: 30px;
+    bottom: 0;
+    width: 100%;
+}
+.colorTextWhite{
+    color: rgb(255, 255, 255);
+}
+.colorTextBlack{
+    color: rgb(0, 0, 0);
+}
+.colorLink{
+    color: #5f163d;
+}

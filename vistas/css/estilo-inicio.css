@@ -1,0 +1,47 @@
+#hero-video {
+    position: fixed;
+    z-index: 0;
+    right: 0;
+    object-fit: cover;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pantalla {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+    zoom: 1;
+}
+
+.tituloUno {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(124, 122, 122);
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+/* .buscador, .videoBack{
+    position: absolute;
+} */
+.buscador {
+    z-index: 2;
+}
+
+.videoBack {
+    z-index: 0;
+}
+
+.pantalla {
+    z-index: 1;
+}
+
+#centrar {
+    justify-content: center;
+    align-items: center;
+}
