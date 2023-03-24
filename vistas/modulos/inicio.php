@@ -57,6 +57,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- comentario -->
                 <div class="row justify-content-md-center">
                     <div class="col-4 alerta">
                         <?php
